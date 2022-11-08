@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.login-box {
+  width: 420px;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 55px 30px;
+  border-radius: 3%;
+  box-shadow: 0px 0px 2px #000000;
+}
+  
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration-style: solid;
+}
+  
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+  
+.login-box div {
+  /** border-radius: 7px; **/
+  border-bottom: 3px solid #fff;
+  margin: 6px 0px 20px 0px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.login-box input {
+  width: 83%;
+}
+
+  
+.login-box input[type="email"], .login-box input[type="password"], .login-box input[type="text"] {
+  border: none;
+  /** border-bottom: 2px solid #fff; **/
+  border-radius: 7px;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 10px;
+}
+  
+
+
+.login-box div input:hover::placeholder {
+  color: #e7a40a;
+}
+  
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 50px;
+  background: #e7a40a;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+}
+  
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+  
+.login-box input::placeholder {
+  color: #e7a50a97;
+}
+  
+.login-box a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(213, 212, 212);
+}
+
+.login-box a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.login-box .auxiliar {
+  flex-direction: column;
+}
+
+#cerrar {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.fa{
+  margin-right: 10px;
+  margin: 0px 8px;
+
+}
+.eye{
+  position: absolute;
+  align-self: center;
+}
+#hide1{
+  display: none;
+}
+
+
+#entrar {
+  width: 100%;
+  margin: 5px 0px 15px 0px;
+
+}
+
+.login-box .auxiliar {
+  /** border-radius: 7px; **/
+  border-bottom: 0px solid #fff;
+
+}
+
+
+
+
+  
+  
+  
